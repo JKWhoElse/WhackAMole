@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(104, 179, 60);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+
+.gameDetails{
+    margin: auto;
+}
+
+a#startGame{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid black;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+}
+a#startGame:hover{
+    color: #000;
+    background-color: white;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+}
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 618px;
+    height: 618px;
+}
+.mole{
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
